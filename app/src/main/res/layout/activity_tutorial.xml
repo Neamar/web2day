@@ -2,7 +2,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/splash">
+    android:background="#438bc5">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
@@ -39,9 +39,8 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/tutorial_poweredby"
+        android:src="@drawable/powered_by"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"/>
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
