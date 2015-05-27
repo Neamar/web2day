@@ -4,5 +4,6 @@
     <string name="app_name">Web2Day</string>
     <string name="title_activity_tutorial">Web2Day</string>
     <string name="title_activity_about">Infos</string>
-    <string name="title_activity_mentions">Mentions légales</string>
+    <string name="title_activity_program">Planning</string>
+    <string name="title_activity_news">News</string>
 </resources>

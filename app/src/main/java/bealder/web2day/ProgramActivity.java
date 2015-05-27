@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.webkit.WebView;
 
 
-public class MentionActivity extends Activity {
+public class ProgramActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.webkit.WebView;
 
 
-public class AboutActivity extends Activity {
+public class BealderActivity extends Activity {
 		@Override
 		protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);

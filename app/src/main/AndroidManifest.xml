@@ -33,12 +33,17 @@
                 android:value="bealder.web2day.WelcomeActivity" />
         </activity>
         <activity
-            android:name=".MentionActivity"
-            android:label="@string/title_activity_mentions"
+            android:name=".ProgramActivity"
+            android:label="@string/title_activity_program"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name=".AboutActivity"
+            android:name=".NewsActivity"
+            android:label="@string/title_activity_news"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BealderActivity"
             android:label="@string/title_activity_about"
             android:screenOrientation="portrait" >
         </activity>
