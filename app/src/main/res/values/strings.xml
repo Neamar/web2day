@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Natixis</string>
+    <string name="app_name">Web</string>
     <string name="title_activity_tutorial">Natixis</string>
     <string name="title_activity_about">Infos</string>
     <string name="title_activity_mentions">Mentions légales</string>

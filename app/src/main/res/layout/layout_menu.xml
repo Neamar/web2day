@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_alignParentBottom="true"
     android:layout_alignParentLeft="true"
-    android:background="#581d74"
+    android:background="#438bc5"
     android:orientation="vertical"
     >
 
@@ -27,13 +27,12 @@
             android:src="@drawable/menu_home"/>
 
         <ImageView
-            android:id="@+id/menu_about"
+            android:id="@+id/menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:src="@drawable/menu_about"/>
-
+            android:src="@drawable/menu_news"/>
 
         <ImageView
             android:id="@+id/menu_mentions"
@@ -41,6 +40,14 @@
             android:layout_height="wrap_content"
             android:paddingLeft="20dp"
             android:paddingRight="20dp"
-            android:src="@drawable/menu_mentions"/>
+            android:src="@drawable/menu_program"/>
+
+        <ImageView
+            android:id="@+id/menu_bealder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/menu_bealder"/>
     </LinearLayout>
 </LinearLayout>

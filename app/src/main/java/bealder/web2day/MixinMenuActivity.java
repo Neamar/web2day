@@ -14,7 +14,7 @@ public class MixinMenuActivity {
 						addMenuListener(currentActivity, R.id.menu_welcome, WelcomeActivity.class);
 				}
 				if (!(currentActivity instanceof AboutActivity)) {
-						addMenuListener(currentActivity, R.id.menu_about, AboutActivity.class);
+						addMenuListener(currentActivity, R.id.menu_bealder, AboutActivity.class);
 				}
 				if (!(currentActivity instanceof MentionActivity)) {
 						addMenuListener(currentActivity, R.id.menu_mentions, MentionActivity.class);
