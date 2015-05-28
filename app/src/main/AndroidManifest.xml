@@ -1,51 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="bealder.web2day" >
+<manifest package="bealder.web2day"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name="bealder.web2day.SplashActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        android:theme="@style/AppTheme">
         <activity
             android:name="bealder.web2day.WelcomeActivity"
             android:label="@string/app_name"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
         <activity
             android:name="bealder.web2day.TutorialActivity"
             android:label="@string/title_activity_tutorial"
             android:parentActivityName="bealder.web2day.WelcomeActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="bealder.web2day.WelcomeActivity" />
+                android:value="bealder.web2day.WelcomeActivity"/>
         </activity>
         <activity
             android:name=".ProgramActivity"
             android:label="@string/title_activity_program"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".NewsActivity"
             android:label="@string/title_activity_news"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
         </activity>
         <activity
             android:name=".BealderActivity"
             android:label="@string/title_activity_about"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait">
         </activity>
     </application>
 

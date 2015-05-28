@@ -15,7 +15,7 @@ public class ProgramActivity extends Activity {
         new bealder.web2day.MixinMenuActivity().addMenuListeners(this);
 
         WebView webView = (WebView) findViewById(R.id.webView);
-        webView.loadUrl("file:///android_asset/mentions.html");
+        webView.loadUrl("http://web2day.co/programme-bealder/");
 
     }
 }
