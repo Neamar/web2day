@@ -12,7 +12,7 @@ public class ProgramActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_webview);
 
-        new bealder.web2day.MixinMenuActivity().addMenuListeners(this);
+        new MixinMenuActivity().addMenuListeners(this);
 
         WebView webView = (WebView) findViewById(R.id.webView);
         webView.loadUrl("http://web2day.co/programme-bealder/");

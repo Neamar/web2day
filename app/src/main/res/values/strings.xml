@@ -6,4 +6,20 @@
     <string name="title_activity_about">Infos</string>
     <string name="title_activity_program">Planning</string>
     <string name="title_activity_news">News</string>
+    <string name="bealder_marketing">
+        <b>Pionnier des beacons, Bealder rend les lieux physiques plus intelligents. Il devient enfin possible
+d\'analyser les flux visiteurs et de communiquer avec un client via son smartphone.</b>\n\n
+
+Le bon message à la bonne personne au bon moment et au bon endroit. Bealder est un dispositif qui permet, grâce au placement de petites balises communicantes, de rentrer immédiatement en interaction avec le smartphone du visiteur via une application spécifique. Utilisant la technologie Bluetooth Low Energy ou dite Beacon, le système Bealder évalue précisément l’emplacement d’une personne et peut échanger immédiatement du contenu personnalisé, géolocalisé et contextuel.\n\n
+
+<b>Bealder apporte les outils du web dans le monde physique.</b>\n\n
+
+- Une plateforme Marketing de proximité : pour diffuser des campagnes Marketing localisé et définir des scénarios clients.\n
+
+- Une solution Analytics pour le monde réel : Collecter en temps réel de la donnée et analyser le comportement des visiteurs\n
+
+- Une plateforme Ad Exhange : La 1ère plateforme d’achat et de vente d’espace publicitaire pour Beacons.\n\n
+
+Nous avons déjà séduit Darty, Natixis, Grand-Tourmalet, WeAre Social, Capgemini.
+    </string>
 </resources>
