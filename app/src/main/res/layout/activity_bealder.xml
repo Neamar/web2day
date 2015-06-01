@@ -2,6 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="#d7147a"
     android:layout_height="match_parent"
     >
 
@@ -14,7 +15,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#d7147a"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
             android:orientation="vertical">
 
             <ImageView
@@ -34,6 +36,13 @@
                 android:textColor="#ffffff"
                 android:layout_gravity="center_horizontal"/>
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/contact_us"
+                android:id="@+id/contact_us"
+                android:onClick="contactUs"
+                android:layout_gravity="center_horizontal"/>
         </LinearLayout>
     </ScrollView>
 
